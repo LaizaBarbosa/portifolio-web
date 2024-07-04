@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,500&family=Shrikhand&display=swap');
 
 :root {
-  font-family: 'Roboto', 'Shrikhand', sans-serif;
+  font-family: 'Shrikhand', 'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 500;
   font-style: italic;
