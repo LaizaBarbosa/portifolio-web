@@ -1,7 +1,6 @@
 import './style.css'
-import git from '../../assets/git-icon.svg'
+import github from '../../assets/git-icon.svg'
 import linkedin from '../../assets/linkedin-icon.svg'
-import { Link } from 'react-router-dom'
 
 export default function Header(){
     return(
@@ -11,15 +10,15 @@ export default function Header(){
             </div>
 
             <div className="itens-header">
-                <Link className='item'>Sobre</Link>
-                <Link className='item'>Projetos</Link>
-                <Link className='item'>Contato</Link>
+                <a href='#descricao' className='item'>Sobre</a>
+                <a href='#skills' className='item'>Projetos</a>
+                <a href='#contato' className='item'>Contato</a>
             </div>
 
             <div className="redes">
-                <a href="http://github.com/LaizaBarbosa" target="_blank" rel="noopener noreferrer"><img src={git} alt="Ícone GitHub" /></a>
+                <a href="https://github.com/LaizaBarbosa" target="_blank" rel="noopener noreferrer"><img src={github} alt="Ícone GitHub" /></a>
 
-                <a href="http://linkedin" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Ícone GitHub" /></a>
+                <a href="https://www.linkedin.com/in/laiza-silva-barbosa-1821b7271/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Ícone GitHub" /></a>
             </div>
         </header>
     )
