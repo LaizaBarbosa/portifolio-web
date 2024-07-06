@@ -21,8 +21,52 @@
 .ilustracao{
     width: 400px;
     height: 400px;
-    border: #000 solid 5px;
-    border-left: 0px;
-    border-top: 0px;
+    border: #000 solid 2px;
+    box-shadow: 4px 4px 0px #000;
     border-radius: 16px;
+}
+
+@media (max-width: 950px) {
+    #descricao{
+        gap: 1rem;
+        }
+    .ilustracao{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        margin: auto auto;
+        img{
+            width: 300px;
+        }
+    }   
+
+    .texto p{
+        font-size: 16px;
+    }
+
+    .texto h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:750px) {
+    #descricao{
+        flex-wrap: wrap;
+        }
+}
+
+@media (max-width:380px) {
+    #descricao{
+        margin: auto auto
+    }
+
+    .ilustracao{
+        width: 250px;
+        height: 250px;
+        display: flex;
+        margin: auto auto;
+        img{
+            width: 250px;
+        }
+    }   
 }
