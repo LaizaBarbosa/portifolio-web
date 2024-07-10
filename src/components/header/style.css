@@ -74,8 +74,8 @@
     100% {
       text-shadow: -1px 1px #0000006e, -2px 2px #0000006e, -3px 3px #0000006e, -4px 4px #0000006e, -5px 5px #0000006e, -6px 6px #0000006e, -7px 7px #0000006e, -8px 8px #0000006e;
       filter: drop-shadow(-4px 4px 0px #0000006e);
-      -webkit-transform: translateX(4px) translateY(-4px) scale(1.09);
-              transform: translateX(4px) translateY(-4px) scale(1.09);
+      -webkit-transform: translateX(4px) translateY(-4px) scale(1.08);
+              transform: translateX(4px) translateY(-4px) scale(1.08);
     }
   }
   
