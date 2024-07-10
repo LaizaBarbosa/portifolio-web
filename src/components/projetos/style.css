@@ -1,0 +1,97 @@
+#projetos{
+    width: 85%;
+    display: grid;
+    margin: auto auto;
+    h1{
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 4px 4px 2px #0000006e;
+        margin: 1rem 0 0 0;
+    }
+}
+
+.esq{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 2rem 0rem;
+}
+
+.dir{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+}
+
+
+
+/* ================================================================================ */
+
+.descricao{
+    width: 30%;
+    height: 300px;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 16px;
+    border: 2px solid #000000;
+    padding: 6px 16px;
+    h2{
+        text-shadow: 4px 4px 2px #0000006e;
+    }
+    p, a{
+        font-family: 'Roboto';
+        text-wrap: wrap;
+        margin: 4px 0px;
+    }
+
+    a{
+        font-size: 20px;
+        color: #dbd6cd;
+        text-decoration: none;
+        z-index: -10;
+        position: relative;
+        top: 60px;
+    }
+
+    sub{
+        font-family: 'Roboto';
+        background-color: #dbd6cd67;
+        border-radius: 6px;
+        margin: 4px 6px 0px 0px;
+        padding: 2px 4px;
+    }
+}
+
+.descricao a:hover{
+    cursor: crosshair;
+
+}
+
+.tecs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imagem{
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 16px;
+    border: 2px solid #000000;
+    font-family: 'Roboto';
+    width: 70%;
+    height: 312px;
+    overflow: hidden;
+    transition: 0.8s
+
+    }
+
+#projetos img{
+            width: 100%;
+            position: relative;
+            top: -5px;
+            border-radius: 16px;
+            z-index: -1;
+        }
+
+.imagem:hover{
+    height: 375px;
+}
