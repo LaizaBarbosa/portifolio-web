@@ -1,0 +1,170 @@
+#contato{
+    display: grid;
+    width: 85%;
+    margin: auto auto;
+
+    h1{
+        text-align: center;
+        text-shadow: 4px 4px 2px #0000006e;
+        font-size: 40px;
+        margin: 1rem 0 0 0;
+    }
+
+    label{
+        margin-left: 8px;
+        font-family: 'Roboto';
+        font-size: 20px;
+    }
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    input, textarea{
+        height: 30px;
+        border-radius: 16px;
+        border: none;
+        box-shadow: 4px 4px 0px #0000006e;
+        font-size: 18px;
+        padding: 2px 6px;
+        font-family: 'Roboto';
+        background-color: #D6DBD8;
+    }
+
+    button:hover{
+        cursor: pointer;
+        transform: scale(1.09);
+        transition: 0.5s;
+    }
+
+    p{
+        font-family: 'Roboto';
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        margin: 6px 0;
+        width: 100%;
+        animation: swing-in-top-bck 8.3s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+        
+    }
+
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+.nome{
+    width: 30%;
+
+}
+
+.assunto{
+    width: 68%;
+}
+
+.msg {
+    width: 100%;
+    margin-top: 15px;
+    textarea{
+        height: 200px;
+        resize: none;
+    }
+}
+
+form button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-family: 'Shrikhand';
+    color: #171717;
+    margin: 20px 0;
+    padding: 4px 40px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 4px 4px 0px #0000006e;
+    background-color: #D6DBD8;
+    img{
+        width: 25px;
+    }
+}
+
+
+
+  @keyframes swing-in-top-bck {
+    0% {
+      -webkit-transform: rotateX(70deg);
+              transform: rotateX(70deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+    50% {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 1;
+    }
+    100%{
+        -webkit-transform: rotateX(70deg);
+              transform: rotateX(70deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+      opacity: 0;
+    }
+  }
+  
+
+  @media (max-width: 1175px) {
+    #contato{
+        width: 90%;
+    }
+    .asssunto{
+        width: 80%;
+    }
+
+    .nome{
+        width: 20%;
+    }
+
+    .msg{
+        width: 90%;
+    }
+
+  }
+
+  @media (max-width: 800px) {
+
+    form{
+        flex-direction: column;
+       align-items: center;
+    }
+    .assunto{
+        width: 90%;
+    }
+
+    .nome{
+        width: 90%;
+    }
+
+    .msg{
+        width: 90%;
+    }
+  }
+
+  @media (max-width: 385px) {
+    #contato{
+        width: 100%;
+    }
+
+    .input{
+        margin: 0;
+    }
+  }
