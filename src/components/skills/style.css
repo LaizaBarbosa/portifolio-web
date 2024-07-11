@@ -35,9 +35,19 @@
     justify-content: center;
 }
 
-@media (max-width:880px) {
+@media (max-width:1000px) {
     .tecnologias{
         gap: 10px;
         flex-wrap: wrap;
     }
+
+    .card{
+        width: 60px;
+        height: 60px;
+        img{
+            width: 40px;
+        }
+    }
+
+    
 }

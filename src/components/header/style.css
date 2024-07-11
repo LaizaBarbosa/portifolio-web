@@ -8,6 +8,7 @@
     text-shadow: 4px 4px 2px #0000006e;
     position: sticky;
     top: 0;
+    z-index: 20;
     background-color:#171717;
 }
 
@@ -40,30 +41,13 @@
 }
 
 .redes img:hover{
-    -webkit-animation: text-shadow-pop-bl 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
 	animation: text-shadow-pop-bl 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550) both; 
 }
 
 .item:hover{
-    -webkit-animation: text-shadow-pop-bl 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
 	animation: text-shadow-pop-bl 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550) both; 
 }
 
-
-
-@-webkit-keyframes text-shadow-pop-bl {
-    0% {
-      text-shadow: 0 0 #0000006e, 0 0 #0000006e, 0 0 #0000006e, 0 0 #0000006e, 0 0 #0000006e, 0 0 #0000006e, 0 0 #0000006e, 0 0 #0000006e;
-      -webkit-transform: translateX(0) translateY(0);
-             transform: translateX(0) translateY(0);
-   }
-    100% {
-      text-shadow: -1px 1px #0000006e, -2px 2px #0000006e, -3px 3px #0000006e, -4px 4px #0000006e, -5px 5px #0000006e, -6px 6px #0000006e, -7px 7px #0000006e, -8px 8px #0000006e;
-      filter: drop-shadow(-1px 1px #0000006e, -2px 2px #0000006e, -3px 3px #0000006e, -4px 4px #0000006e, -5px 5px #0000006e, -6px 6px #0000006e, -7px 7px #0000006e, -8px 8px #0000006e);
-      -webkit-transform: translateX(4px) translateY(-4px) scale(1.09);
-              transform: translateX(4px) translateY(-4px) scale(1.09);
-    }
-  }
 
   @keyframes text-shadow-pop-bl {
     0% {
@@ -79,3 +63,33 @@
     }
   }
   
+
+@media (max-width: 550px) {
+    .header{
+        justify-content: space-evenly;
+    }
+
+    .sigla{
+        margin: 0px 0px;
+    }
+
+    .itens-header{
+        gap: 1.5rem;
+    }
+
+    .redes img{
+        display: none;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .sigla{
+        font-size: 25px;
+        margin-right: 6px;
+    }
+
+    .itens-header{
+        font-size: 16px;
+    }
+}

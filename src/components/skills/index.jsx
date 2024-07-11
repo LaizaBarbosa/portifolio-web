@@ -55,6 +55,9 @@ export default function Skills(){
                     <div className='card' >
                         <img src="src/assets/icon-linux.svg" alt="Linux" />
                     </div>
+                    <div className='card' >
+                        <img src="src/assets/swagger.svg" alt="Swagger" />
+                    </div>
                 </div>
             </section>
         </article>
