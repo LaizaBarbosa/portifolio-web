@@ -5,13 +5,14 @@ export default function Descricao(){
     return(
         <article id="descricao">
             <section className="texto">
-                <h1>Oie!</h1>
+                <h2>Oie! Eu sou a Laiza Barbosa</h2>
+                <h1>Web Developer</h1>
                 <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti velit quibusdam eaque similique molestiae maiores ea quam voluptates nobis ipsam esse officiis aliquam consequuntur est optio magnam, reprehenderit aut laudantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi omnis nobis harum voluptatibus veritatis odit perferendis explicabo rerum quibusdam nihil et quod temporibus repellendus earum numquam facilis maxime, suscipit aut.
+                    Sou de São Paulo, tenho 20 anos e recentemente finalizei o curso técnico em Desenvolvimento de Sistemas pelo SENAI, que foi minha porta de entrada no mundo da programação. Agora planejo seguir os estudos criando aplicações web que irão solucionar problemas reais no seu negócio! 
                 </p>
             </section>
             <aside className="ilustracao">
-                <img src={ilustracao} alt="ilustração de deselvolvedora" />
+                <img src={ilustracao} alt="ilustração de desenvolvedora" />
             </aside>
         </article>
     )

@@ -18,7 +18,7 @@ export default function Header(){
             <div className="redes">
                 <a href="https://github.com/LaizaBarbosa" target="_blank" rel="noopener noreferrer"><img src={github} alt="Ícone GitHub" /></a>
 
-                <a href="www.linkedin.com/in/laiza-barbosa-1821b7271" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Ícone GitHub" /></a>
+                <a href="https://linkedin.com/in/laiza-barbosa-1821b7271" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Ícone GitHub" /></a>
             </div>
         </header>
     )

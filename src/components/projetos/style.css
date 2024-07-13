@@ -2,11 +2,12 @@
     width: 85%;
     display: grid;
     margin: auto auto;
+    row-gap: 1rem;
     h1{
         text-align: center;
         font-size: 40px;
         text-shadow: 4px 4px 2px #0000006e;
-        margin: 1rem 0 0 0;
+        margin: 1rem 0;
     }
 }
 
@@ -14,13 +15,13 @@
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    margin: 2rem 0rem;
 }
 
 .dir{
     display: flex;
     flex-direction: row-reverse;
     gap: 2rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -79,7 +80,7 @@
     border: 2px solid #000000;
     font-family: 'Roboto';
     width: 70%;
-    height: 85%;
+    height: 80%;
     overflow: hidden;
     transition: 0.8s
 

@@ -8,13 +8,18 @@
 .texto{  
     p{
         font-family: 'Roboto';
-        font-size: 18px;
-        margin: 0;
+        font-size: 19px;
+        margin: 14px 0px;
     }
     h1{
         font-size: 40px;
         text-shadow: 4px 4px 2px #0000006e;
         margin: 0;
+    }
+    h2{
+        font-family: 'Roboto';
+        margin: 0;
+        font-size: 24px;
     }
 }
 
@@ -24,8 +29,12 @@
     border: #000 solid 2px;
     box-shadow: 4px 4px 0px #000;
     border-radius: 16px;
-}
+    img{
+        animation: floating infinite 3s linear;
+    }
 
+}
+    
 @media (max-width: 950px) {
     #descricao{
         gap: 1rem;
@@ -69,4 +78,19 @@
             width: 250px;
         }
     }   
+}
+
+@keyframes floating {
+    0%{
+        transform: translateY(-6px); 
+    }
+    40%{
+        transform: translateX(-4px);
+    }
+    60%{
+        transform: translateX(4px);
+    }
+    100%{
+        transform: translateY(-6px);
+    }
 }
