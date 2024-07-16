@@ -1,7 +1,18 @@
 import './style.css'
-
-// react, js, css, html, tailwind, axios
-// Node, Java, MySQl, MongoDB, Sequelize, Express
+import icon_html from '../../assets/icon-html.svg'
+import icon_js from '../../assets/icon-js.svg'
+import icon_css from '../../assets/icon-css.svg'
+import tailwind from '../../assets/icon-tailwind.svg'
+import icon_react from '../../assets/icon-react.svg'
+import icon_node from '../../assets/icon-node.svg'
+import express from '../../assets/icon-ex.svg'
+import java from '../../assets/icon-java.svg'
+import python from '../../assets/icon-python.svg'
+import mongo from '../../assets/icon-mongo.svg'
+import mysql from '../../assets/icon-mysql.svg'
+import linux from '../../assets/icon-linux.svg'
+import swagger from '../../assets/swagger.svg'
+import sequelize from '../../assets/icon-seq.svg'
 
 export default function Skills(){
     return(
@@ -11,19 +22,19 @@ export default function Skills(){
                 <h2>Front-End</h2>
                 <div className="tecnologias">
                     <div className='card' >
-                        <img src="src/assets/icon-html.svg" alt="HTML" />
+                        <img src={icon_html} alt="HTML" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-js.svg" alt="JavaScript" />
+                        <img src={icon_js} alt="JavaScript" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-css.svg" alt="CSS" />
+                        <img src={icon_css} alt="CSS" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-tailwind.svg" alt="TailWind CSS" />                        
+                        <img src={tailwind} alt="TailWind CSS" />                        
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-react.svg" alt="React" />
+                        <img src={icon_react} alt="React" />
                     </div>
 
                 </div>
@@ -32,31 +43,31 @@ export default function Skills(){
                 <h2>Back-End</h2>
                 <div className="tecnologias">
                     <div className='card' >
-                        <img src="src/assets/icon-node.svg" alt="Node.js" />
+                        <img src={icon_node} alt="Node.js" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-ex.svg" alt="Express" />
+                        <img src={express} alt="Express" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-seq.svg" alt="Sequelize" />
+                        <img src={sequelize} alt="Sequelize" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-java.svg" alt="Java" />
+                        <img src={java} alt="Java" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-python.svg" alt="Python" />
+                        <img src={python} alt="Python" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-mongo.svg" alt="MongoDB" />
+                        <img src={mongo} alt="MongoDB" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-mysql.svg" alt="MySQL" />
+                        <img src={mysql} alt="MySQL" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/icon-linux.svg" alt="Linux" />
+                        <img src={linux} alt="Linux" />
                     </div>
                     <div className='card' >
-                        <img src="src/assets/swagger.svg" alt="Swagger" />
+                        <img src={swagger} alt="Swagger" />
                     </div>
                 </div>
             </section>

@@ -1,7 +1,7 @@
 import './style.css'
 import emailjs from '@emailjs/browser'
 import React, {useRef, useState} from 'react'
-
+import send from '../../assets/send.svg'
 
 export default function Formulario(){
 
@@ -63,7 +63,7 @@ export default function Formulario(){
                     <textarea name="mensagem" id='mensagem' cols="30"></textarea>
                 </div>
 
-                <button type='submit'>Enviar <img src="src/assets/send.svg"/></button>
+                <button type='submit'>Enviar <img src={send} /></button>
             </form>
         </article>
     )

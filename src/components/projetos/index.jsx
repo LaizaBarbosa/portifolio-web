@@ -1,4 +1,7 @@
 import './style.css'
+import plannexus from '../../assets/plannexus.png'
+import alphadantas from '../../assets/alpha.png'
+import chatbot from '../../assets/chatbot.png'
 
 export default function Projetos(){
 
@@ -22,7 +25,7 @@ export default function Projetos(){
                             <a href='https://gist.github.com/LaizaBarbosa/64a2cdf8754cf7cdd365092741af03d7' target="_blank"> Ver </a>
                         </div>
                         <div className="imagem">
-                            <img src='src/assets/plannexus.png' alt="imagem do projeto" />
+                            <img src={plannexus} alt="imagem do projeto" />
                         </div>
                     </div>
 
@@ -37,7 +40,7 @@ export default function Projetos(){
                             <a href='https://alphadantasconsultoria.com.br/' target="_blank"> Ver </a>
                         </div>
                         <div className="imagem">
-                            <img src='src/assets/alpha.png' alt="imagem do projeto" />
+                            <img src={alphadantas} alt="imagem do projeto" />
                         </div>
                     </div>
 
@@ -53,7 +56,7 @@ export default function Projetos(){
                             <a href='https://www.linkedin.com/posts/laiza-barbosa-1821b7271_ol%C3%A1-rede-quero-compartilhar-com-voc%C3%AAs-um-activity-7201383314149064704-AoUz?utm_source=share&utm_medium=member_desktop' target="_blank"> Ver </a>
                         </div>
                         <div className="imagem">
-                            <img src='src/assets/chatbot.png' alt="imagem do projeto" />
+                            <img src={chatbot} alt="imagem do projeto" />
                         </div>
 
                     </div>
